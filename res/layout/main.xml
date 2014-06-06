@@ -9,11 +9,16 @@
             android:layout_height="wrap_content"
             android:text="Hello World, MyActivity"
             />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_description"
+            />
     <Button
             android:id="@+id/verbose"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Verbose"
+            android:text="@string/button_verbose"
             />
 </LinearLayout>
 
